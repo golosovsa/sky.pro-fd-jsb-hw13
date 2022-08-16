@@ -58,7 +58,7 @@ class Form {
         // const url = `https://api.1pt.co/addURL?long=${link}`;
         const request = new XMLHttpRequest()
 
-        const url = "http://thakkaha.dev.fast.sheridanc.on.ca/pme/1pt/addURL.php?url=" + link;
+        const url = "https://api.1pt.co/addURL?long=" + link;
 
         this.disableForm()
 
